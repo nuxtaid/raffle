@@ -120,6 +120,17 @@ async function resetRaffle() {
             Enter
           </button>
         </form>
+        <div class="border-t border-white/10 pt-5">
+          <p class="text-white/40 text-xs mb-3">
+            Not an admin?
+          </p>
+          <NuxtLink
+            to="/join"
+            class="w-full inline-block py-3 bg-violet-800 hover:bg-violet-500 text-white font-bold rounded-xl transition-all text-center cursor-pointer"
+          >
+            Join the Raffle &rarr;
+          </NuxtLink>
+        </div>
       </div>
     </div>
 
@@ -383,7 +394,10 @@ async function resetRaffle() {
 
       <!-- Footer -->
       <footer class="border-t border-white/5 px-6 py-3 text-center text-white/20 text-xs">
-        Powered by <span class="text-green-500/60 font-semibold">Nuxt</span> · Running on <span class="text-white/30 font-semibold">Raspberry Pi</span>
+        Powered by <NuxtLink
+          to="https://nuxt.com/"
+          class="text-green-500/60 font-semibold"
+        >Nuxt</NuxtLink> · Running on <span class="text-white/30 font-semibold">Raspberry Pi</span>
       </footer>
     </template>
   </div>
