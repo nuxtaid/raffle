@@ -18,7 +18,7 @@
     "@nuxt/fonts": "0.14.0",
     "@nuxt/icon": "2.2.1",
     "@nuxt/image": "2.0.0",
-    "@nuxt/scripts": "0.13.2",
+    "@nuxt/scripts": "1.0.1",
     "@nuxt/test-utils": "4.0.0",
     "@nuxtjs/ngrok": "^4.0.0",
     "@tailwindcss/vite": "^4.2.2",
